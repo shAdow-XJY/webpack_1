@@ -8,8 +8,8 @@
 ```
     npm i -D webpack
 ```
-2. 新建index.html, show.js, main.js
-3. webpack.config.js(!!webpack的项目都是有这个文件放在根目录下的，或者是babel.config.js)
+2. 新建index.html, show.js, main.js在src下(不建src也行，webpack.config.js的entry路径写好就行)
+3. 新建webpack.config.js文件(!!webpack的项目都是有这个文件放在根目录下的，或者是babel.config.js)
 4. 之后terminal执行以下命令，即可进行webpack打包，之后可以看到 dist/bundle.js 文件出现。
 ```
     node_modules/.bin/webpack
