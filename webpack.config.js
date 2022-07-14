@@ -40,4 +40,23 @@ module.exports = {
     //     })
     // ]
 
+    // step four
+    devServer: {
+        port: 8080,
+        hot: true,
+        //为index.html的路径
+        static: {
+            directory: path.join(__dirname, './src')
+        }
+    },
+    module: {
+        rules: [
+            {
+                //正则匹配 .css 结尾的文件
+                test: /\.css$/,
+                use: ['style-loader', 'css-loader'],
+            }
+        ]
+    }
+
 }

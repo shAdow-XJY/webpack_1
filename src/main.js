@@ -7,5 +7,6 @@ show('Webpack')
 // step Two
 //require('./show.css')
 
-// step three
-//import('./show.css')
+// step three/four
+import('./show.css')
+
