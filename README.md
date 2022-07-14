@@ -67,7 +67,7 @@
 ```
 7. 运行html，并修改show.css的字体颜色，返回网页查看效果
 ## reference
-1. 《深入浅出Webpack》——吴浩麒麟
+1. 《深入浅出Webpack》——吴浩麟
 2. [nodejs的卸载及重装](https://blog.csdn.net/strawberry_x/article/details/113648770)
 3. [css-loader 打包出问题](https://zhuanlan.zhihu.com/p/92468484)
 4. [Webpack 4.x已经不再支持extract-text-webpack-plugin](https://blog.csdn.net/qq_38526769/article/details/82427800)
