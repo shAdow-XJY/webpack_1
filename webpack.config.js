@@ -4,6 +4,8 @@ const path = require('path')
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = {
+    mode: "development",
+
     //js执行入口文件
     entry: './src/main.js',
     output: {
